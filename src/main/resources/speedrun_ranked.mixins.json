@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.speedrunranked.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "EnderDragonEntityMixin",
+    "ServerWorldMixin",
+    "GameModeChangeMixin"
+  ],
+  "client": [
+    "ClientWorldMixin"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

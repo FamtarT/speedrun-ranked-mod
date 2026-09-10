@@ -1,0 +1,33 @@
+# gradle
+.gradle/
+build/
+out/
+classes/
+
+# eclipse
+.classpath
+.project
+.settings/
+bin/
+.c9/
+*.launch
+.scale-managed/
+.externalToolBuilders/
+
+# idea
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea/*
+!.idea/runConfigurations
+
+# vscode
+.vscode/
+.factorypath
+
+# macos
+*.DS_Store
+
+# minecraft
+run/

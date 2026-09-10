@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "speedrun-ranked-mod",
+  "version": "${version}",
+  "name": "Speedrun Ranked",
+  "description": "MCSR Ranked single-player Minecraft 1.16.1 mod with local ELO, curated seeds, and speedrunning mechanics",
+  "authors": [
+    "FamtarT"
+  ],
+  "contact": {
+    "sources": "https://github.com/FamtarT/speedrun-ranked-mod"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.speedrunranked.SpeedrunRankedMod"
+    ]
+  },
+  "mixins": [
+    "speedrun_ranked.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
